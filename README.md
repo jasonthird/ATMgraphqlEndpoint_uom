@@ -5,5 +5,5 @@ Exercise for the distributed programming course in university of macedonia
 read requirments.txt
   
 ## Usage
-Given that you have access to the rabbitmq server just change the ip in gode and then start it up with ```python main.py```
+Given that you have access to the rabbitmq server just change the ip in gode and then start it up with ```uvicorn main:schema --port 8081```
 
